@@ -69,10 +69,20 @@
 }
 
 /*Standard Works*/
-.search-container {
+.search-form {
   width: 80%;
   margin: 0px auto;
   margin-top: 60px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  width: 30px;
+  height: 30px;
 }
 
 .page-title {
@@ -88,14 +98,14 @@
 }
 
 .graph-container {
-  /*temporary place holder code*/
-  width: 80%;
-  height: 500px;
+  margin: 0px auto;
+  height: 400px;
+  /*height: 500px;
   margin: 0px auto;
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 15px;
-  border: 2px solid #414141;
+  border*/
 }
 
 .instruction-container {
@@ -155,12 +165,16 @@
     margin-bottom: 20px;
   }
   /*Standard Works*/
-  .search-container {
+  .search-form {
     width: 90%;
   }
 
   .filter-container {
     flex-direction: column;
+  }
+
+  .graph-container {
+    width: 400px;
   }
 }
 
